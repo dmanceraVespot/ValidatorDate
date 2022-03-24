@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-31j" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <managed-bean id="__1">
+    <managed-bean-name>ValidatorDate</managed-bean-name>
+    <managed-bean-class>oracle.iam.ui.validatordate.ValidatorDate</managed-bean-class>
+    <managed-bean-scope>backingBean</managed-bean-scope>
+  </managed-bean>
+</adfc-config>
