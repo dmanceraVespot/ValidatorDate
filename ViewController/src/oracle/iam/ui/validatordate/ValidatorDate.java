@@ -7,7 +7,7 @@ import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 
 /**
- * Descripcion: Valida que la fecha final no sea mayor a un a?o
+ * Descripcion: Valida que la fecha final no sea mayor a 365 dias
  * y no se encuentre antes de la fecha de inicio.
  */
 public class ValidatorDate {
@@ -37,7 +37,7 @@ public class ValidatorDate {
      }
      
      /**
-      * Representa el mensaje que saldra si la fecha final es mayor a un a?o.
+      * Representa el mensaje que saldra si la fecha final es mayor a 365 dias.
       */
     private static final String START_DATE_END_DATE_VALIDATION_MSG =
         "El intervalo entre Fecha de inicio y fecha final no puede ser mayor a 365 dias.";
